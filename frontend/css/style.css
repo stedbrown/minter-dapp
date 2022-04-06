@@ -10,9 +10,9 @@
   --font-code: "Roboto", monospace;
   --bg-color: #2b2b2b;
   --bg-color-transparent: #00163f80;
-  --font-color: #050505;
-  --btn-bg-color: #0f0e0e;
-  --accent-color: #000000;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
+  --accent-color: #f0edf3;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -312,6 +312,24 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
+}
+
+/* SLIDDER */
+
+.splide {
+  position: absolute;
+  top: 90px;
+  left: 5rem;
+  z-index: -1;
+}
+
+.splide__slide {
+  border: var(--accent-color) solid;
+  border-width: 5px 10px;
+}
+
+.splide__slide img {
+  width: 100%;
 }
 
 /* SPINNER */
