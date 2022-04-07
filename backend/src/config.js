@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 250,
+    growEditionSizeTo: 200,
     layersOrder: [
       { name: "Background" },
       { name: "Eyes" },
@@ -35,7 +35,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -53,7 +53,7 @@ const OWNER_ADDRESS = '0xBd3b7ddE3023565b4222FDcBC0053b691Ab5E0eF';
 const TREASURY_ADDRESS = '0xBd3b7ddE3023565b4222FDcBC0053b691Ab5E0eF';
 const MAX_SUPPLY = 200; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-04-06T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
