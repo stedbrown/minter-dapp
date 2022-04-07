@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "HandsDraw FORM";
-const description = "Only Vibe Only FORM";
+const description = "Only Vibe Only FORM Drawing with Hands";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically

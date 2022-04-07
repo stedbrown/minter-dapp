@@ -1,9 +1,9 @@
-const contractAddress = "0xF7a02157548af87Ee3c8fFfDAf6CA53e8D06FCb5"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x35Cfe1e60984943Cb7024ECe79686c7E183b481d"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "XWY super rare NFT drop";
+const welcome_h1 = "Handsdrawing FORM NFT drop";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'XWY super rare NFT drop by UP! informatica';
+const welcome_p = 'Handsdrawing FORM super rare NFT drop by UP! informatica';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
