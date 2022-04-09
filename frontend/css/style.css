@@ -335,6 +335,7 @@ section {
 
 /* SPINNER */
 .dot-spin {
+  color: #2b2b2b;
   position: absolute;
   top: 50%;
   left: 50%;
