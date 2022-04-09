@@ -12,7 +12,7 @@
   --bg-color-transparent: #1a25385d;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #030303;
+  --accent-color: #272626;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -326,6 +326,7 @@ section {
 
 .splide__slide {
   border: var(--accent-color) solid;
+  color: #2b2b2b;
   border-width: 5px 10px;
 }
 
