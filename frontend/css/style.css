@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url("paper.gif");
+  background-image: url("images\x-icon\favicon-32x32.png");
   background-color: #cccccc;   
   display: flex;
   flex-flow: column;
