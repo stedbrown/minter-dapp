@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: -moz-linear-gradient();
   display: flex;
   flex-flow: column;
   height: 100vh;
